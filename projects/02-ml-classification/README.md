@@ -1,32 +1,32 @@
-# Project 2: Supervised Machine Learning Classification
+# Project 2: ML Classification (Breast Cancer)
 
 ## Overview
-This project applies supervised machine learning techniques to a structured dataset, focusing on classification performance, model evaluation, and optimization.
+Built and evaluated multiple classification models on a breast cancer dataset. The project compares Logistic Regression and Random Forest, and includes cross-validation and hyperparameter optimization to improve performance.
 
-Models implemented include Logistic Regression and Random Forest classifiers, with systematic validation and hyperparameter tuning.
+## What’s included
+- **Notebook:** end-to-end training + evaluation (`notebook/dmml_classification.ipynb`)
+- **Dataset:** CSV used in the experiments (`data/data.csv`)
+- **Diagrams:** workflow visuals for the ML pipeline (`assets/`)
 
-## Workflow
-The modeling pipeline follows a structured process:
-- Objective definition
-- Data loading and preprocessing
-- Model initialization and training
-- Prediction and performance evaluation
-- Confusion matrix analysis
-- Cross-validation
-- Hyperparameter optimization using randomized search
-- Iterative refinement based on validation results
+## Repository structure
+- `assets/` — pipeline/workflow diagrams (PNG)
+- `data/` — dataset (CSV)
+- `notebook/` — Jupyter notebook with code and results
 
-## Techniques Used
-- Logistic Regression
-- Random Forest
-- Confusion Matrix
-- Cross-Validation
-- Randomized Hyperparameter Search
+## Diagrams
+### Logistic Regression pipeline
+![Logistic Regression pipeline](assets/01_logistic_regression_pipeline.png)
 
-## Repository Structure
-- `notebook/` — Jupyter notebook with full implementation
-- `data/` — dataset used for training and evaluation
-- `assets/` — workflow and process diagrams
+### Random Forest pipeline
+![Random Forest pipeline](assets/02_random_forest_pipeline.png)
 
-## Results
-Model performance was evaluated using standard classification metrics and cross-validation, with iterative tuning applied to improve generalization performance.
+### Hyperparameter optimization workflow
+![Hyperparameter optimization](assets/03_hyperparameter_optimization_pipeline.png)
+
+### Cross-validation workflow
+![Cross-validation workflow](assets/04_cross_validation_workflow.png)
+
+## How to run
+1. Open `notebook/dmml_classification.ipynb`
+2. Ensure the dataset path points to: `data/data.csv`
+3. Run all cells to reproduce preprocessing, training, and evaluation results
