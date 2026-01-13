@@ -28,5 +28,7 @@ Built and evaluated multiple classification models on a breast cancer dataset. T
 
 ## How to run
 1. Open `notebook/dmml_classification.ipynb`
-2. Ensure the dataset path points to: `data/data.csv`
+2. ### Dataset source
+The dataset is sourced from Kaggle and loaded directly via its public URL.
+For convenience and reproducibility, a local copy is also included in the repository under `data/data.csv`.
 3. Run all cells to reproduce preprocessing, training, and evaluation results
