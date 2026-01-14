@@ -28,7 +28,6 @@ This folder contains a **public-friendly demo** that showcases real-time webcam 
 
 ## Visual proof (screenshots)
 
-> Place images inside: `assets/screenshots/`
 
 ### Sleeping detected (eyes closed)
 <img src="./assets/screenshots/sleeping.png" width="900" />
