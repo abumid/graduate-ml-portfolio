@@ -3,6 +3,11 @@
 In these industry projects, my role was:
 
 **Role:** Chief Commercial Officer (CCO) — owned product discovery/delivery as **Technical Product Owner** (requirements, architecture decisions, acceptance criteria), working with ML/Backend/Frontend teams.
+## Product Videos (YouTube)
+
+I also led/owned the creation of commercial product videos (positioning, messaging, approval loop).
+
+▶️ Watch on YouTube: https://www.youtube.com/@aigroupglobal
 
 **Role & contributions (my part)**
 - Owned: problem framing, requirements, user flows, acceptance criteria, and delivery milestones  
