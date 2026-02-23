@@ -127,11 +127,9 @@ Because this is a portfolio-friendly demo, some items may be intentionally exclu
 - **Training datasets** (private / client / internal)
 - **Production configuration** (endpoints, secrets, internal services)
 - **Some model weights**
-  - If weights are large, they should be managed with Git LFS or shared separately.
 
-> If you want, I can help you create a clean structure:
-> - `weights/` kept locally and ignored in GitHub (`.gitignore`)
-> - README explains how to add weights (without exposing private artifacts)
+
+
 
 ---
 
